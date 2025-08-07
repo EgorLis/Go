@@ -4,6 +4,8 @@ type Celsius float64
 
 type Fahranheit float64
 
+type Kelvin float64
+
 var Smt int = 1
 
 const (

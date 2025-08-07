@@ -1,8 +1,8 @@
 package main
 
 import (
+	"examples/Lesson-2/tempconv"
 	"fmt"
-	"lesson-2/tempconv"
 )
 
 func main() {

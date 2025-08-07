@@ -4,8 +4,8 @@
 package main
 
 import (
+	"examples/Lesson-5/links"
 	"fmt"
-	"lesson-5/links"
 	"log"
 	"os"
 )
