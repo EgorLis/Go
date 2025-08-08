@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 )
 
 type ByteCounter int
@@ -11,6 +12,8 @@ func (c *ByteCounter) Write(p []byte) (int, error) {
 	*c += ByteCounter(len(p))
 	return len(p), nil
 }
+
+var _ io.Writer = (*ByteCounter)(nil)
 
 func main() {
 	var c ByteCounter

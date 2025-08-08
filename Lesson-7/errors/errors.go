@@ -36,6 +36,9 @@ func WhatIsError(e error) {
 	}
 }
 
+var _ error = (*IndexOutOfRangeError)(nil)
+var _ error = (*InvalidArgumentError)(nil)
+
 func main() {
 	var err error
 	err = &IndexOutOfRangeError{"значение вышло за пределы массива"}
