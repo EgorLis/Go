@@ -1,7 +1,7 @@
 package main
 
 import (
-	"examples/lesson-2/tempconv"
+	"examples/Lesson-2/tempconv"
 	"flag"
 	"fmt"
 )
